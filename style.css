@@ -1,10 +1,9 @@
-body {
-    padding: 0px;
-}
 #h1-box {
     box-sizing: border-box;
     margin: 0 auto;
-    text-align: center;       
+    text-align: center;
+    max-width: fixed 1237px; 
+    height: fixed 86px;      
 }
 h1 {
     max-width: 1240px auto;
@@ -22,59 +21,78 @@ h1 {
     
 }
 #starting-conteiner {
+    box-sizing: border-box;
     max-width: 568px;  
     height: auto 866px; 
     margin-top: 37px;
     margin-left: 55px;
     background: #FFF;
-    box-sizing: border-box;
 }
 #image {
     box-sizing: border-box;
     width: 100% 568px;
     height: fixed 446px;  
-    margin-bottom: 12px;
+}
+#stary-night {
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    width: 100% 568px;
+    height: auto 48px;
 }
 h2 {
-    box-sizing: border-box;
+    margin: 0 auto;
     color: #000;
     text-align: center;
+    font-family: Lato;
     font-size: 40px;
+    font-style: normal;
     font-weight: 700;
+    line-height: normal;
     text-transform: uppercase;  
 }
-#look-up {   
+#look-up-box {
+    box-sizing: border-box;
     width: 100% 568px;
     height: auto 96px;
     margin-top: 16px;
     margin-bottom: 16px;
-    color: #414651;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
+}
+#look-up { 
+     margin: 0 auto;
+     display: inline-block; 
+     color: #414651;
+     text-align: center;
+     font-family: Lato;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
 }
 span {
-    display: block;  
+    display: inline-block;
+    
+    
 }
-ol {
+#ol-list {
     box-sizing: border-box;
-    margin: 0 auto;
-    padding-left: 24px;
+    width: 100% 568px;
+    height: auto 144px;
     color: #155eef;
+    padding-left: 24px;      
 }
 a {
-    width: 100% 568px;
-    height: auto 144px;  
     text-decoration: none;
     color: #155eef;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+   
 } 
 #read-more-botton {
     box-sizing: border-box;
     margin-top: 32px;
+    padding: 12px 32px;
     border: 2px solid #CEA201;
     background-color: #FFF;
     width: 177px;
@@ -91,6 +109,11 @@ a {
     font-weight: 400;
     line-height: 32px;
 }
+
+/*პირველი ბოქსის მერე ვფიქრობ რომ გონება შედარებით გამეხსნა და
+მეორე ბოქსი შედარებით ნაკლები შეცდომით ავაწყე თუმცა 
+ვხვდები რომ ჯერ ყველაფერი ვერ გავიაზრე ისევ*/
+
 #final-box{
     box-sizing: border-box;
     display: inline-block;
@@ -118,7 +141,6 @@ p {
     width: 100% 722px;
     height: auto 72px;
     margin-top: 16px;  
-    display: inline-block;
     text-align: center;
     color: #414651;
     font-family: Lato;
@@ -129,7 +151,6 @@ p {
 }
 #span-2 {
     display: inline-block;
-    margin: 0 auto;
 }
 h3 {
     box-sizing: border-box;
