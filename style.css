@@ -1,13 +1,14 @@
-#h1-box {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+#h1-box {
     margin: 0 auto;
     text-align: center;
-    max-width: fixed 1237px; 
-    height: fixed 86px;      
+    max-width: auto;       
 }
 h1 {
-    max-width: 1240px auto;
-    height: 86px;
     margin-top: 24px;
     font-weight: 700;
     font-size: 72px;
@@ -16,34 +17,28 @@ h1 {
     line-height: normal;
     text-transform: uppercase;
     color:  #000000;
-    text-align: center;
     display: inline-block;
     
 }
 #starting-conteiner {
-    box-sizing: border-box;
     max-width: 568px;  
-    height: auto 866px; 
     margin-top: 37px;
     margin-left: 55px;
     background: #FFF;
 }
 #image {
-    box-sizing: border-box;
-    width: 100% 568px;
-    height: fixed 446px;  
+    max-width: 568px;
+    width: 100%;  
 }
 #stary-night {
-    box-sizing: border-box;
     margin-top: 12px;
-    margin-bottom: 16px;
-    width: 100% 568px;
-    height: auto 48px;
+    max-width: 568px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 h2 {
-    margin: 0 auto;
     color: #000;
-    text-align: center;
     font-family: Lato;
     font-size: 40px;
     font-style: normal;
@@ -52,17 +47,15 @@ h2 {
     text-transform: uppercase;  
 }
 #look-up-box {
-    box-sizing: border-box;
-    width: 100% 568px;
-    height: auto 96px;
+    max-width: 568px;
+    width: 100%;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-align: center;
+    display: inline-block;
 }
-#look-up { 
-     margin: 0 auto;
-     display: inline-block; 
+#look-up {  
      color: #414651;
-     text-align: center;
      font-family: Lato;
      font-size: 20px;
      font-style: normal;
@@ -70,16 +63,14 @@ h2 {
      line-height: 24px;
 }
 span {
-    display: inline-block;
-    
-    
+    display: inline-block;   
 }
 #ol-list {
-    box-sizing: border-box;
-    width: 100% 568px;
-    height: auto 144px;
+    max-width: 568px;
+    width: 100%;
     color: #155eef;
-    padding-left: 24px;      
+    padding-left: 24px;
+    display: inline-block;        
 }
 a {
     text-decoration: none;
@@ -90,44 +81,31 @@ a {
    
 } 
 #read-more-botton {
-    box-sizing: border-box;
     margin-top: 32px;
     padding: 12px 32px;
     border: 2px solid #CEA201;
     background-color: #FFF;
-    width: 177px;
-    height: 56px;  
+    max-width: 177px;
+    width: 100%;  
     justify-content: center;
-    color: #CEA201;   
-}
-#read-more-botton a {
-    width: auto 133px;
-    height: auto 32px;
+    color: #CEA201;
     text-align: center;
+    display: inline-block;   
+}
+#button {
     color: #CEA201;
     font-size: 24px;
     font-weight: 400;
     line-height: 32px;
 }
-
-/*პირველი ბოქსის მერე ვფიქრობ რომ გონება შედარებით გამეხსნა და
-მეორე ბოქსი შედარებით ნაკლები შეცდომით ავაწყე თუმცა 
-ვხვდები რომ ჯერ ყველაფერი ვერ გავიაზრე ისევ*/
-
 #final-box{
-    box-sizing: border-box;
-    display: inline-block;
     margin-top: 70px;
     margin-left: 55px;
-    max-width: 772px ;
-    height: 1156px auto;
-}
-#h2-2 {
-    box-sizing: border-box;
+    max-width: 772px;
     width: 100%;
-    height: auto 48px;  
-    margin: 0 auto;   
-    display: inline;
+}
+#h2-2 { 
+    text-align: center;  
     color: #000;
     font-family: Lato;
     font-size: 40px;
@@ -137,9 +115,8 @@ a {
     text-transform: uppercase;
 }
 p {
-    box-sizing: border-box;
-    width: 100% 722px;
-    height: auto 72px;
+    width: 722px;
+    width: 100%;
     margin-top: 16px;  
     text-align: center;
     color: #414651;
@@ -153,9 +130,8 @@ p {
     display: inline-block;
 }
 h3 {
-    box-sizing: border-box;
-    width: fill 722px;
-    height: 24px;
+    max-width: 722px;
+    width: 100%;
     margin-top: 24px;
     margin-bottom: 16px;
     color: #00C76E;
@@ -167,11 +143,11 @@ h3 {
     line-height: 24px; 
 }
 #ol-2 {
-    box-sizing: border-box;
-    width: 461px;
+    margin: 0 auto;
+    max-width: 461px;
+    width: 100%;
 }
 #li-2 {
-    height: auto 72px;
     color: #FF5DA3;
     font-family: Lato;
     font-size: 16px;
@@ -180,31 +156,26 @@ h3 {
     line-height: 24px;  
 }
 #image-2 {
-    box-sizing: border-box;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    width: 100%;
     margin-top: 24px;
-    margin-bottom: 24px;
     background: url(<path-to-image>) l
 }
-#rectangle-box {
-    box-sizing: border-box;
+#rectangle-container {
+    margin-top: 24px;
     width: 100% 722px;
-    height: auto 160px;
     padding: 16px;
     border: 6px solid #C11574;
     background: #FFDEF0;
 
 }
-#rectangle-box-2 {
-    box-sizing: border-box;
-    width: 100% 690px;
-    height: auto 128px;
+#rectangle-box {
+    max-width: 690px;
+    width: 100%;
 }
 #paragrap {
-    box-sizing: border-box;
-    width: 100% 690px;
-    height: auto 24px;
+    max-width: 690px;
+    width: 100%;
     color: #414651;
     margin-bottom: 16px;
     font-family: Lato;
@@ -213,66 +184,91 @@ h3 {
     font-weight: 800;
     line-height: 24px;
 }
-button {
+#rectangle-div-1 {
+    max-width: 435px;
+    width: 100%;
+}
+#rectangle {
     background-color: #000;
-    width: 16px;
-    height: 16px;
-    margin: 8px 12px 8px 0px;
+    max-width: 16px;
+    width: 100%;
     border-radius: 9999px;
 }
-#span-3 {
-    box-sizing: border-box;
+#paragrap-1 {
     display: inline-block;
-    width: auto 407px;
-    height: auto 24px;
+    max-width: 400px;
+    width: 100%;
     margin-top: 16px;
-    margin-bottom: 8px;
+    margin-left: 12px;
     color: #C27512;
     font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
 }
-#span-4 {
-    box-sizing: border-box;
-    display: inline-block;
-    width: auto 399px;
-    height: auto 24px;
-    margin-bottom: 8px;
-    color: #C27512;
-    font-family: Lato;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
+#rectangle-div-2 {
+    max-width: 435px;
+    width: 100%;
 }
-#span-5 {
-    box-sizing: border-box;
+#rectangle-2 {
+    background-color: #000;
+    max-width: 16px;
+    width: 100%;
+    border-radius: 9999px;
+}
+#paragrap-2 {
     display: inline-block;
-    width: auto 467px;
-    height: auto 24px;
-    margin-bottom: 8px;
+    max-width: 399px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 12px;
     color: #C27512;
     font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    text-align: left;
+}
+#rectangle-div-3 {
+    max-width: 690px;
+    width: 100%;
+}
+#rectangle-3 {
+    background-color: #000;
+    max-width: 16px;
+    width: 100%;
+    border-radius: 9999px;
+    vertical-align: middle;
+}
+#paragrap-3 {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 440px;
+    width: 100%;
+    margin-top: 8px;
+    margin-left: 12px;
+    color: #C27512;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: middle;
 }
 #image-3 {
-    box-sizing: border-box;
-    width: 298.012px;
-    height: 396px;
+    max-width: 298.012px;
+    width: 100%;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 #see-more-box {
-    box-sizing: border-box;
     text-align: right;
-    width: auto 216px;
-    height: auto 32px;
+    
 }
 #see-more-link {
     color: #00D4BC;
@@ -280,7 +276,7 @@ button {
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 133.333% */
+    line-height: 32px;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-skip-ink: auto;
